@@ -1,0 +1,16 @@
+﻿<Window x:Class="hmvg.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hmvg"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FFE05D5D">
+    <Grid Width="600" Height="400">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="42,92,0,0" VerticalAlignment="Top" Width="120" Height="24" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,131,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="430,92,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_2"/>
+        <Label Content="Приложение с элементом StackPanel" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
